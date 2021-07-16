@@ -6,4 +6,6 @@ The user should provide a desired text file (some examples are provided) to trai
 
 To run the generator, the user should run:
 
-\code beep \code
+```
+>>> python master.py -t [PATH TO TRAINING TEXT] -n [LENGTH OF N GRAM] -k [VALUE OF K FOR SMOOTHING] -l [LOG OR RAW PROBABILITIES] -g [LENGTH OF GENERATED TEXT]
+```
